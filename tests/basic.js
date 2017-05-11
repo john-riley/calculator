@@ -10,7 +10,13 @@ describe("40 + 2 equals 42", () => {
   });
 });
 
-
+describe("21 * 2 equals 42", () => {
+  let a = 21;
+  let b = 2;
+  it("should return 42", () => {
+    assert.equal(calc.multiply(a, b) , 42)
+  });
+});
 describe("geek value equals 42", () => {
   let geek = 42;
   it("should return 42", () => {
